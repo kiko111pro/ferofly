@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Antic+Didone&family=Didact+Gothic&display=swap");
+
+/* --------------------Home------------------------ */
+
+.home_smalltitle {
+  font-family: "Antic Didone", serif;
+  font-style: italic;
+  margin-top: 20px;
+}
+.home_title {
+  font-family: "Didact Gothic", sans-serif;
+  font-style: italic;
+  /* margin: 50px; */
+}
+form {
+  font-family: "Didact Gothic", sans-serif;
+}
+
+@media only screen and (max-width: 1100px) {
+  .home form{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
+/* -----------------About ------------------- */
+.about {
+  padding: 10px;
+  max-width: 700px;
+  margin: 100px 0;
+}
+
+.about,.rooms p {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 22px;
+  color: #555;
+}
+
+/* -----------------------Rooms------------------ */
+
+.rooms {
+  position: relative;
+}
+.rooms div {
+  position: absolute;
+  padding: 10px 50px;
+  background-color: #fff;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+
+.rooms_img{
+    width: 100%;
+}
+
+@media only screen and (max-width: 996px) {
+  .rooms_box{
+    /* margin: -15px !important; */
+    position: absolute !important;
+    height: 200px;
+    width: 70%;
+    height: 90%;
+    /* margin-right: -10px; */
+    font-size: 10px !important;
+    /* background-color: #555 !important; */
+    /* padding: 10px !important; */
+  }
+
+  .rooms_box h1{
+    font-size: 20px;
+  }
+  .rooms p{
+    font-size: 1rem;
+    /* margin: 30px; */
+    /* padding: 0; */
+    margin-bottom: -10px;
+  }
+}
+
+/* --------------------Services---------------- */
+@media only screen and (max-width: 500px) {
+  .services_cards{
+    /* width: 80vw; */
+    flex-direction: column;
+  }
+  .card{width: 90%!important;
+  
+  }
+
+}
+/* ------------Card---------------- */
+.card_logo{
+    font-size: large
+}
+
+
+/* -----------------gallery------------------- */
+
+.gallery_container{
+  background-color: #eee;
+}
+
+.gallery img{
+  max-width: 300px;
+  min-height: 600px;
+  object-fit: cover;
+}
+
+.thumbs {
+  display: none !important;
+}
+
+/* -----------------------testinomails--------------------- */
+
+.testinomials {
+  background-color: #777;
+  background-blend-mode: multiply;
+  padding: 300px; 
+  background-image: url('https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.carousel-status {
+  display: none
+}
+
+.testinomaial_carousel {
+  background-color: #eee;
+  padding: 50px 0px;
+}
+.testinomaial_carousel img{
+  margin:  auto;
+  max-width: 20px;
+  object-fit: contain;
+}
+
+.testinomaial_carousel p{
+  padding: 0 60px;
+  text-align: center;
+}
+
+/* ---------------------Contact---------------------- */
+
+.contact {
+  background-color: rgba(17, 17, 17, 0.096);
+  padding: 6rem 0;
+  margin: 5rem 0
+}

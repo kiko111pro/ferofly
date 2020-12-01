@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red */
+}
+
+.iconbutton_top {
+  /* background-color: black; */
+  color: white ;
+  /* position: absolute; */
+  z-index:3;
+  /* bottom: 30px ;
+  right: 0px; */
+  margin-top: -150px;
+  outline: none;
+  text-align: right
+}
+ 
+.body p{
+  font-style: italic;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.footer{
+  position: relative;
+}
+
+.footer_copyright{
+  background-color: #111;
+  color: #eee;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  left: 0;
+  width: 100vw;
+}
